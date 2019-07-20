@@ -1,0 +1,70 @@
+body {
+    background-color: #171717;
+    font-family: 'Handlee';
+    margin: 0;
+    padding: 0;
+
+
+}
+#Container {
+    width: 500px;
+    height: 350px;
+    padding: 12px;
+    background-color: #fff;
+    margin: auto;
+    position: absolute;
+    top: 20%;
+    left: 32%;
+
+
+}
+
+#Header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#Header img {
+    width: 70px;
+    height: 70px;
+}
+
+#Middle {
+   display: flex;
+
+}
+.leftSide{
+    width: 50%;
+    font-size: 21px;
+    line-height: 24px;
+}
+.rightSide {
+      width: 50%;
+
+
+}
+
+input {
+    width: 220px;
+    margin: 10px 20px;
+    border: 0px;
+    border-bottom: 1px #808080 solid;
+    font-size: 19px;
+    font-family: 'Handlee' , cursive;
+}
+
+.infoLine {
+    color: gray;
+}
+
+#Footer {
+    text-align: center;
+
+}
+
+
+.submitButton {
+    text-align: center;
+    font-family: 'Handlee';
+    width: auto;
+}
